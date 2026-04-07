@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+*.env
+!.env.example
+
+# Django
+*.log
+db.sqlite3
+staticfiles/
+media/
+backend/logs/*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kivy / Buildozer
+mobile_app/.buildozer/
+mobile_app/bin/
+mobile_app/data/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
